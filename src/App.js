@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Navbar } from './components/Navbar';
+import { Input } from './components/Input';
+import { Main } from './components/Main';
+import { Opener } from './components/Opener';
+import { Projects } from './ProjectList';
+import {Card} from './components/Card.js'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+    return (
+        <>
+            <Navbar />
+            <Main />
+            <Opener />
+            <div className="projectContainer">
+                {
+                    Projects.map((project, i )=> (
+                        <Card project={project} key={i}/>
+                    ))
+                }
+
+            </div>
+        </>
+    );
 }
 
 export default App;
