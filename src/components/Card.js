@@ -3,7 +3,7 @@ import { SpringCard } from './SpringCard'
 
 
 export const Card = ({ project }) => {
-    const { name, link, skills, image } = project;
+    const { name, link, image } = project;
     const styles = {
         backgroundImage: 'url(' + image + ')',
         backgroundSize: "cover",

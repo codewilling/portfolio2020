@@ -1,20 +1,6 @@
-import React, { Component, useEffect, useRef } from 'react';
-// import gsap from 'gsap';
-import { useSpring, animated } from 'react-spring'
-
-import {Card} from './SpringCard.js';
-// import {Card} from './SpringCard';
+import React from 'react';
 
 export const Main = () => {
-    // const heroSection = useRef(null);
-
-    // useEffect(() => {
-    //         gsap.timeline().fromTo(heroSection.current, { height: '0%' }, { duration: 1, height: '100%' })
-    //     }, []);
-    // const ref = useRef(null);
-
-    
-
     return (
         <>
             <section>

@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import { Navbar } from './components/Navbar';
-import { Input } from './components/Input';
 import { Main } from './components/Main';
 import { Opener } from './components/Opener';
 import { Projects } from './ProjectList';
