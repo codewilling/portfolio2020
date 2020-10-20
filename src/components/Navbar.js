@@ -30,9 +30,6 @@ export const Navbar = () => {
             </div>
             <ul className='nav-links'>
                 <li>
-                    <a href="/projects" target="_blank" rel="noopener noreferrer">Projects</a>
-                </li>
-                <li>
                     <a href="https://codewilling.github.io/resume/" target="_blank" rel="noopener noreferrer">Resume</a>
                 </li>
                 <li>
