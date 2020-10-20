@@ -1,7 +1,7 @@
 import tents from './assets/images/Tents.png'
 export const Projects = [
     {   
-        name: 'Tents',
+        name: 'Campgrounds',
         link:'https://secure-meadow-48144.herokuapp.com/',
         skills: [
             'Node', 'Express', 'MongoDB', 'HTML', 'CSS', 'JavaScript', 'Responsive Design'
