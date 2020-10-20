@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio2020/static/css/main.6f970488.chunk.css",
+    "main.js": "/portfolio2020/static/js/main.12b9d4cc.chunk.js",
+    "main.js.map": "/portfolio2020/static/js/main.12b9d4cc.chunk.js.map",
+    "runtime-main.js": "/portfolio2020/static/js/runtime-main.1118c555.js",
+    "runtime-main.js.map": "/portfolio2020/static/js/runtime-main.1118c555.js.map",
+    "static/js/2.f2489509.chunk.js": "/portfolio2020/static/js/2.f2489509.chunk.js",
+    "static/js/2.f2489509.chunk.js.map": "/portfolio2020/static/js/2.f2489509.chunk.js.map",
+    "index.html": "/portfolio2020/index.html",
+    "precache-manifest.44a5f18e6756e23541bb98548cea95ad.js": "/portfolio2020/precache-manifest.44a5f18e6756e23541bb98548cea95ad.js",
+    "service-worker.js": "/portfolio2020/service-worker.js",
+    "static/css/main.6f970488.chunk.css.map": "/portfolio2020/static/css/main.6f970488.chunk.css.map",
+    "static/js/2.f2489509.chunk.js.LICENSE.txt": "/portfolio2020/static/js/2.f2489509.chunk.js.LICENSE.txt",
+    "static/media/Tents.png": "/portfolio2020/static/media/Tents.b0f14771.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1118c555.js",
+    "static/js/2.f2489509.chunk.js",
+    "static/css/main.6f970488.chunk.css",
+    "static/js/main.12b9d4cc.chunk.js"
+  ]
+}
