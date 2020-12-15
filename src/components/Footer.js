@@ -11,5 +11,6 @@ export const Footer = () => (
                 alt="codewilling's github" /></a>
         </div>
         <p>&#169 2018 Sean Flores</p>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </footer>
 )

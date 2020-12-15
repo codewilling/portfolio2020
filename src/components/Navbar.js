@@ -2,7 +2,6 @@ import React from 'react'
 import { useSpring, animated } from 'react-spring'
 import InPic from '../assets/images/In-White-34px-R.png'
 import githubPic from '../assets/images/GitHub-Mark-Light-32px.png'
-
 export const Navbar = () => {
     const navSlide = () => {
         const nav = document.querySelector('.nav-links');
@@ -41,6 +40,10 @@ export const Navbar = () => {
                     <a href="https://www.github.com/codewilling" target="_blank" rel="noopener noreferrer"><img src={githubPic}
                         alt="codewilling's github" /></a>
                 </li>
+                {/* <li>
+
+                    <a href="" target="_blank" rel="noopener noreferrer"><Icon id='chatIcon'>chat</Icon></a>
+                </li> */}
             </ul>
             <div className="burger" onClick={navSlide}>
                 <div className='line1'></div>
